@@ -3,8 +3,8 @@
 #include <boost/multiprecision/cpp_int.hpp>
 #include <boost/multiprecision/miller_rabin.hpp>
 
-constexpr unsigned mersenne_max = 16392;  // 2 ^ x (2 ^ 12)
-constexpr unsigned perfect_max = 2 * mersenne_max;
+constexpr unsigned long long mersenne_max = 16392;  // 2 ^ x (2 ^ 12)
+constexpr unsigned long long perfect_max = 2 * mersenne_max;
 constexpr unsigned precision = 25;
 
 namespace boost {
