@@ -21,6 +21,12 @@ using boost::multiprecision::miller_rabin_test;
 #define TIME
 // #define TIME_2
 
+#ifdef TIME_2
+#ifndef TIME
+#define TIME
+#endif
+#endif
+
 #ifdef TIME
 #include <chrono>
 #include <string>
